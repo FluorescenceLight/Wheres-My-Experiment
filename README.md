@@ -131,9 +131,7 @@ This modification is a personal interest project, continuously updated. If you e
 - Back up your save data before updating, or use the "Reset Game" function to clear data.
 
 ---
-
-> "实验"不止于玩法，更在于探索与分享的乐趣。  
-> Experimentation goes beyond gameplay—it's about the joy of exploration and sharing.  
+ 
 > 祝各位玩家洗澡愉快！🚿  
 > Happy bathing to all players! 🚿
 
