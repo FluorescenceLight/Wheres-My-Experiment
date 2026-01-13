@@ -39,7 +39,7 @@
 
 ### 🔗 相关资源
 - **关卡地图**：详见 [`Level_Map.xlsx`](Level_Map.xlsx)（如有提供）
-- **更新日志**：各版本详细更新内容请查看 [Releases 页面](https://github.com/你的用户名/仓库名/releases)
+- **更新日志**：各版本详细更新内容请查看 [Releases 页面](https://github.com/FluorescenceLight/Wheres-My-Experiment/releases)
 - **外部链接**：部分关卡配有相关解说或演示视频链接
 
 ### 🧩 特色机制
@@ -58,7 +58,7 @@
 ### 🛠 开发与反馈
 本改版为个人兴趣项目，持续更新中。如遇到问题或有关卡建议，欢迎通过以下方式反馈：
 
-- **GitHub Issues**：[提交问题或建议](https://github.com/你的用户名/仓库名/issues)
+- **GitHub Issues**：[提交问题或建议](https://github.com/FluorescenceLight/Wheres-My-Experiment/issues)
 - **社区讨论**：可在相关论坛或社群中@作者（硼硼钨/Bramblewood）
 
 ### 📌 注意事项
@@ -103,7 +103,7 @@ To ensure the game runs properly, please make sure to meet the following require
 
 ### 🔗 Related Resources
 - **Level Map**: See [`Level_Map.xlsx`](Level_Map.xlsx) (if provided)
-- **Changelog**: Detailed updates for each version are available on the [Releases page](https://github.com/your-username/repo-name/releases)
+- **Changelog**: Detailed updates for each version are available on the [Releases page](https://github.com/FluorescenceLight/Wheres-My-Experiment/releases)
 - **External Links**: Some levels include links to explanatory or demonstration videos
 
 ### 🧩 Key Features
@@ -122,7 +122,7 @@ To ensure the game runs properly, please make sure to meet the following require
 ### 🛠 Development & Feedback
 This modification is a personal interest project, continuously updated. If you encounter issues or have level suggestions, please provide feedback through:
 
-- **GitHub Issues**: [Submit issues or suggestions](https://github.com/your-username/repo-name/issues)
+- **GitHub Issues**: [Submit issues or suggestions](https://github.com/FluorescenceLight/Wheres-My-Experiment/issues)
 - **Community Discussion**: You can @ the author (Bramblewood) in relevant forums or communities
 
 ### 📌 Important Notes
