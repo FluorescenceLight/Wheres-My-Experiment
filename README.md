@@ -1,309 +1,109 @@
-# 小鳄鱼爱洗澡实验版
+# 🐊 小鳄鱼爱洗澡实验版 · Where's My Experiment? (WMEX)
 
-> 作者 Bramblewood（硼硼钨）
-
----
-
-### 运行前必读 (Essential)
-1. **环境要求**：Android 8.0+ 设备。
-2. **显示设置**：强制要求 **60Hz 刷新率**（高刷会导致物理引擎失效）。
-3. **安装建议**：更新时建议卸载旧版彻底重装或重置档案。（个人档案->重置游戏）
-4. **版本区别**：
-   - **大实验**：基于原版 v1.18.9 修改，适合高性能新设备，更新稍微慢一点。
-   - **小实验**：基于原版 v1.14.1 修改，适合老旧设备，最新内测版通常用这个。
-   - 除此之外两个版本差别不大，并行更新
+> 一个基于《鳄鱼小顽皮爱洗澡》的科研向改版 | A research-oriented mod based on "Where's My Water?"  
+> 作者：Bramblewood（硼硼钨） | Made by Bramblewood
 
 ---
 
-# 最新版本
+## 🚀 项目简介 | Project Overview
 
-## [Lite1.6.5] - 2026-01-01
+本改版受《割绳子：实验》启发，旨在探索与拓展原版《小鳄鱼爱洗澡》的游戏机制与关卡设计。项目名称"实验版"寓意对玩法、物理、视觉与音频的持续实验与创新。
 
-### Release Note
-- 新年快乐！
-- 美术音乐优化
-- 修复了一些小bug
-
-### Added
-- 全新的logo (使用Gemini制作)
-- 新关卡 "如影随形" (替换"惊喜派对")
-- 新关卡 S2-15, S3-3, S10-7
-- 新的爱丽关卡bgm (使用Suno制作)
-- 新的外部链接
-
-### Changed
-- 修改了部分S1章节关卡（@盟子xyz贡献）
-- 修改了部分S10章节关卡
-- 修改了部分游戏文本
-
-# 历史版本
-- 所有版本记录汇总于此
-
-## [1.6.1] - 2025-05-15
-
-### Release Note
-- 修复了一些小bug
-
-### Added
-- 新增关卡“粒子探测器”（替换“密技”），“神经网络”（替换“瓦尔播风笛”）
-- 为S1-15添加可燃机挑战
-- 添加成就测试入口（在旧版主界面）
-
-### Changed
-- 修改S1“过饱和溶液”时间奖励
-- 微调关卡M10-5
-- 将成就测试入口移至旧版主界面
-- 失落关卡界面布局微调
-- 修改失落菜单音乐、爱丽菜单音乐（来自马路rpg4）
-- 修改部分游戏文本
-
-
-## [1.6.0] - 2025-01-22
-
-### Release Note
-- 修复了一些小bug
-
-### Added
-- 新增关卡L2-1 ~ L2-12等（未修缮的废稿）
-- 新增关卡L4-1 ~ L4-10等（未修缮的废稿）
-- 新的作者外链
-- 游戏字库更新
-
-### Changed
-- 替换关卡S10-5、M10-5
-
-
-## [1.5.0] - 2025-01-19
-
-### Release Note
-- 新增可废遗产章节
-
-### Added
-- 新增关卡L1-1 ~ L1-21等（已修缮的废稿）
-- 新增关卡L3-1 ~ L3-11等（未修缮的废稿）
-- 新的初始加载关卡（你知道怎么进吗）
-- 新的jc3关卡
-- 为某些关卡添加挑战
-
-### Changed
-- 修改关卡S1-6、M1-8、M1-12、M1-18
-- 修改部分关卡名称（有些错别字和？是因为字库中没有对应文字
-
-
-## [1.0.0] - 2025-01-07
-
-### Release Note
-- 包含了目前硼硼钨做过的所有关卡
-
-### Added
-- 新增挑战章节部分关卡S10-1、S10-3、S10-5、S10-8、S10-10、S10-11、S10-15、S10-16、S10-18、S10-20
-- 为某些关卡添加可燃机挑战
-- 为某些关卡添加爱丽挑战
-
-### Changed
-- 修改关卡S1-20、S1-8
-- 修改“密技”和“鸭子派对”入口的鸭子编码（没错我改了lib，可以试试顺序是什么）
-- 为第一章所有关卡添加标题（有些错别字和？是因为字库中没有对应文字）
-- 修改第一章标题
-- 修改小顽皮菜单音乐（来自马路rpg4）
-- 修改神秘鸭菜单音乐（来自Draw a Stickman）
-
-
-## [0.8.0] - 2025-01-05
-
-### Release Note
-- 饱和章节微调
-
-### Added
-- 新增关卡S2-5、S2-10、S3-5、S3-10、S3-15、S4-1、S4-15（后续章节前瞻）
-- 物品仓库新增鸭子全家桶（来自小圆改版）
-
-### Changed
-- 替换关卡S1-6、S1-8（由@盟子xyz贡献）
-- 修改关卡M1-5、M1-11、M1-18
-- 微调了一些收藏品的位置
-- 解锁了所有关卡
-
-
-## [0.5.0] - 2025-01-03 
-
-### Release Note
-- 更新饱和章节（S1、M1）
-
-### Added
-- 新增关卡S1-1 ~ S1-20
-- 新增神秘鸭关卡M1-1 ~ M1-20（除了M1-8、M1-11、M1-18）
-- 新增收藏关卡SB1、SB2
-- 物品仓库新增黄色开关全家桶（由@盟子xyz贡献）
-- 添加作者水印（锇讨厌这个，但是没办法。。。）
-
-### Changed
-- 修改游戏图标（使用可灵ai制作）
-- 设置界面添加画质选择按钮GFX
-- 制作方界面添加jc3入口（虽然看不到）
-- 添加动画测试入口（在主界面可燃机页面·左上方）
-- 修改小顽皮关卡音乐（来自Watee）
-- 修改神秘鸭关卡音乐（来自Draw a Stickman）
-- 修改收藏关卡音乐（来自World of Goo）
-
-
-## [0.0.1] - 2025-01-01
-
-## [Unreleased]
-- 改版名称借鉴《割绳子：实验》
-- 首个基于《鳄鱼小顽皮爱洗澡》游戏机制的科研改版诞生
-
-✿✿✿撒花✿✿✿
-
-
-
-# Where's My Experiment? (WMEX)
-
-> Made by Bramblewood
+This modification is inspired by "Cut the Rope: Experiment" and aims to explore and expand upon the game mechanics and level design of the original "Where's My Water?". The name "Experiment" signifies ongoing experimentation and innovation in gameplay, physics, visuals, and audio.
 
 ---
 
-# Readme
-- This mod is based on the game "Where's My Water?" v1.18.9
-- Requires Android 8.0 and above devices to function properly
-- Please uninstall the old version before updating, Or reset the game on your profile
-- Please set the device's screen refresh rate to 60hz
-- For a level overview, please refer to "Level_Map.xlsx"
-- Many people cannot run v1.18.9 on older devices, thus a WMEX based on the original v1.14.1 has been created, labeled "Lite," while the original WMEX is labeled "Pro." Both versions will be updated concurrently
+## 📱 版本说明 | Version Information
+
+项目提供两个并行更新的版本，以适应不同设备性能：
+
+Two versions are maintained in parallel to accommodate different device performance:
+
+| 版本 | Version | 内核 | Kernel | 适合设备 | Target Devices | 更新频率 | Update Frequency |
+|------|---------|------|---------|----------|----------------|----------|------------------|
+| **大实验（Pro）** | **Pro Version** | 基于原版 v1.18.9 | Based on original v1.18.9 | 高性能新设备 | High-performance new devices | 稍慢 | Slower |
+| **小实验（Lite）** | **Lite Version** | 基于原版 v1.14.1 | Based on original v1.14.1 | 老旧设备 | Older devices | 通常为最新内测版 | Usually the latest beta |
+
+> 除内核外，两个版本内容基本一致。  
+> Apart from the kernel, the two versions are essentially identical in content.
 
 ---
 
-# Latest
-## [Lite1.6.5] - 2025-01-01
+## ⚙️ 运行要求 | Requirements
 
-### Release Note
-- Happy New Year!
-- Improvements in art and music
-- Minor bug fixed
+为确保游戏正常运行，请务必满足以下条件：
 
-### Added
-- New game logo (create with Gemini)
-- New level "Doppelganger" (Replace "Surprise Party")
-- New levels S2-15, S3-3, S10-7
-- New Allie level bgms (create with Suno)
-- New links to the according videos
+To ensure the game runs properly, please make sure to meet the following requirements:
 
-### Changed
-- Modified some levels in the S1 Chapter
-- Modified some levels in the S10 Chapter
-- Modified some in-game text
+- **系统要求** | **System Requirements**：Android 8.0 及以上 | Android 8.0 and above
+- **显示设置** | **Display Settings**：**必须将屏幕刷新率设置为 60Hz**（高刷新率会导致物理引擎失效） | **Must set screen refresh rate to 60Hz** (higher rates cause physics engine failure)
+- **安装建议** | **Installation Recommendations**：
+  - 更新时建议卸载旧版后全新安装 | Clean install recommended when updating
+  - 或进入游戏内"个人档案" → "重置游戏" | Or go to "Profile" → "Reset Game" within the game
 
-# ChangeLog
-- All version histories are listed here
+---
 
-## [1.6.1] - 2025-05-15
+## 📦 内容概览 | Content Overview
 
-### Release Note
-- Minor bug fixed
+- **章节体系** | **Chapter System**：包含饱和章节（S1/M1）、可废遗产章节（L系列）、挑战章节（S10系列）等 | Includes Saturation Chapters (S1/M1), Creature's Feep Chapters (L series), Challenge Chapters (S10 series), etc.
+- **关卡类型** | **Level Types**：普通关卡、神秘鸭关卡、收藏关卡、隐藏关卡、挑战模式等 | Regular levels, Mystery Duck levels, Collection levels, Hidden levels, Challenge modes, etc.
+- **自定义内容** | **Custom Content**：
+  - 全新关卡设计与机制 | New level designs and mechanics
+  - AI 生成的视觉与音频素材 | AI-generated visual and audio assets
+  - 社区贡献的关卡与物件 | Community-contributed levels and objects
+  - 动态更新的游戏字库 | Dynamically updated game font library
 
-### Added
-- New level "Ion Trap" (Replace "Cheat Code")
-- New level "Neural Network" (Replace "Walaber Pipes")
-- Applied Cranky's Challenge to S1-15
-- Added achievement test entry (in Main Menu v1)
+---
 
-### Changed
-- Modified the time bonus of S1 levels
-- Modify the music of the Allie & Lost menu (from "Mario & Luigi: Dream Team")
-- Move animation test entry to Main Menu V1
-- Modified level M10-5
-- Modified the outlook of the Lost Levels Menu
-- Modified some in-game text
+## 🔗 相关资源 | Related Resources
 
+- **关卡地图** | **Level Map**：详见 [`Level_Map.xlsx`](Level_Map.xlsx)（如有提供） | See [`Level_Map.xlsx`](Level_Map.xlsx) (if provided)
+- **更新日志** | **Changelog**：各版本详细更新内容请查看 [Releases 页面](https://github.com/your-username/repo-name/releases) | Detailed updates for each version are available on the [Releases page](https://github.com/your-username/repo-name/releases)
+- **外部链接** | **External Links**：部分关卡配有相关解说或演示视频链接 | Some levels include links to explanatory or demonstration videos
 
-## [1.6.0] - 2025-01-22
+---
 
-### Release Note
-- Minor bug fixed
+## 🧩 特色机制 | Key Features
 
-### Added
-- New levels L2-1 ~ L2-12 (unpolished scrap levels)
-- New levels L4-1 ~ L4-10 (unpolished scrap levels)
-- New links
+- **隐藏入口** | **Hidden Entries**：通过特定鸭子编码或界面交互进入隐藏关卡 | Access hidden levels through specific ducky codes or interface interactions
+- **挑战模式** | **Challenge Modes**：为部分关卡添加"可燃机挑战"与"爱丽挑战" | Added "Cranky's Challenge" and "Allie's Challenge" to select levels
+- **废稿重生** | **Scrap Level Revival**：将未采用的废稿关卡整理为可玩内容 | Organized unused scrap levels into playable content
+- **音乐替换** | **Music Replacement**：使用来自《马路RPG4》《World of Goo》等作品的背景音乐 | Uses background music from "Mario & Luigi: Dream Team", "World of Goo", etc.
+- **社区共建** | **Community Contributions**：欢迎关卡投稿与素材贡献（如已开放协作） | Level submissions and asset contributions are welcome (if collaboration is open)
 
-### Changed
-- Replaced levels S10-5, M10-5
+---
 
+## 📄 文件说明 | File Information
 
-## [1.5.0] - 2025-01-19
+- `WMEX_Pro_*.apk`：Pro 版安装包 | Pro version installation package
+- `WMEX_Lite_*.apk`：Lite 版安装包 | Lite version installation package
+- `Level_Map.xlsx`：关卡索引与地图（如有） | Level index and map (if provided)
+- `README.md`：本说明文件 | This documentation file
 
-### Release Note
-- Updated "Creature's Feep" chapter
+---
 
-### Added
-- New levels L1-1 ~ L1-21, etc. (scrapped levels that have been polished by me)
-- New levels L3-1 ~ L3-11, etc. (unpolished scrap levels)
-- New loading screen (Do you know how to get in?)
-- New JC3 level
-- Applied challenges to certain levels
+## 🛠 开发与反馈 | Development & Feedback
 
-### Changed
-- Modify levels S1-6, M1-8, M1-12, and M1-18
+本改版为个人兴趣项目，持续更新中。如遇到问题或有关卡建议，欢迎通过以下方式反馈：
 
+This modification is a personal interest project, continuously updated. If you encounter issues or have level suggestions, please provide feedback through:
 
-## [1.0.0] - 2025-01-07
+- **GitHub Issues**：[提交问题或建议](https://github.com/your-username/repo-name/issues) | [Submit issues or suggestions](https://github.com/your-username/repo-name/issues)
+- **社区讨论** | **Community Discussion**：可在相关论坛或社群中@作者（硼硼钨/Bramblewood） | You can @ the author (Bramblewood) in relevant forums or communities
 
-### Release Note
-- Contains all the levels that Bramblewood has done so far
+---
 
-### Added
-- Added some levels in the challenge chapter: S10-1, S10-3, S10-5, S10-8, S10-10, S10-11, S10-15, S10-16, S10-18, S10-20
-- Applied Cranky's challenge to some levels
-- Applied Aille's challenge to some levels
+## 📌 注意事项 | Important Notes
 
-### Changed
-- Modify levels S1-20 and S1-8
-- Modify the ducky codes as the entrances of "Cheat Code" and "Surprise Party" (yeah, I changed the lib, you can try to see what the correct order is)
-- Modify titles to all levels in Chapter 1
-- Modify the title of Chapter 1
-- Modify the music of the Swampy menu (from "Mario & Luigi: Dream Team")
-- Modify the music of the Mystery Duck menu (from "World of Goo")
+- 本改版仅供学习、研究与娱乐使用，请支持原版游戏。 | This modification is for learning, research, and entertainment only. Please support the original game.
+- 部分关卡标题因字库限制可能显示为"？"或错别字，不影响游玩。 | Some level titles may display as "?" or typos due to font library limitations, which does not affect gameplay.
+- 更新前请备份存档，或使用"重置游戏"功能清空数据。 | Back up your save data before updating, or use the "Reset Game" function to clear data.
 
-## [0.8.0] - 2025-01-05
+---
 
-### Release Note
-- Saturation chapter fine-tuning
+> "实验"不止于玩法，更在于探索与分享的乐趣。  
+> Experimentation goes beyond gameplay—it's about the joy of exploration and sharing.  
+> 祝各位玩家洗澡愉快！🚿  
+> Happy bathing to all players! 🚿
 
-### Added
-- Added levels S2-5, S2-10, S3-5, S3-10, S3-15, S4-1, S4-15 (preview of subsequent chapters)
-- Added various ducky supports to assets/Objects (from "Where's My Madoka?")
-
-### Changed
-- Replaced levels S1-6 and S1-8 (contributed by @盟子xyz)
-- Modified levels M1-5, M1-11, and M1-18
-- Slightly adjusted the locations of some collectibles
-- Unlocked all levels
-
-## [0.5.0] - 2025-01-03
-
-### Release Note
-- Updated saturation chapters (S1, M1)
-
-### Added
-- Added levels S1-1 ~ S1-20
-- Added mysterious duck levels M1-1 ~ M1-20 (except M1-8, M1-11, and M1-18)
-- Added collection levels SB1 and SB2
-- Added yellow-ish objects to assets/Objects (contributed by @盟子xyz)
-- Added author watermark (I hates this, but whatever...)
-
-### Changed
-- Modified game icon (made with Kling AI)
-- Added GFX button in the settings interface
-- Added jc3 entry in the credits interface (although it is not visible)
-- Added animation test entry (in the hub of Cranky page, upper left)
-- Modified the music of the Swampy level (from "Watee")
-- Modified the music of the Mystery Duck level (from "Draw a Stickman")
-- Modified the music of the bonus level (from "World of Goo")
-
-## [0.0.1] - 2025-01-01
-
-## [Unreleased]
-- The name of the mod is inspired by "Cut the Rope: Experiment"
-- The first experimental mod based on the game mechanism of "Where's My Water?" was born
-
-✿✿✿Finished with Flowers✿✿✿
+✿✿✿ 完结撒花 ✿✿✿  
